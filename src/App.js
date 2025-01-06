@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello Chandan Tiwari!
+          Hello I am Sandip From Inspiring Lab!
         </a>
       </header>
     </div>

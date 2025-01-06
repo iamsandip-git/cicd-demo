@@ -3,8 +3,8 @@ version: "3.9" # Specify the docker-compose version
 services:
   app:
     build:
-      context: . # Build from the current directory
-      dockerfile: Dockerfile # Specify the Dockerfile name
+      context: ./
+    image: sandip1991/cicd-test
     ports:
       - "3000:3000" # Map port 3000 on the host to port 3000 in the container
     volumes:
